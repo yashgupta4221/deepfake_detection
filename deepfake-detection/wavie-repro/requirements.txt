@@ -1,0 +1,9 @@
+torch
+numpy
+scikit-learn
+PyWavelets
+transformers
+facenet-pytorch
+opencv-python
+Pillow
+lz4

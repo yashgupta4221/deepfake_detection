@@ -1,0 +1,12 @@
+# Versions used in Colab (Python 3.13). GenD/ForAda/MoE-FFD need different timm versions, so run the stages in the order of the README.
+numpy
+scipy
+scikit-learn
+pillow
+torch
+transformers==4.56.2     # GenD
+timm==1.0.20             # GenD and ForensicsAdapter
+ftfy
+regex
+huggingface_hub
+# MoE-FFD feature extraction (extract_features.py) additionally needed: albumentations==1.1.0, timm==0.5.4
